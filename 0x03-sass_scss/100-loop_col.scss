@@ -1,0 +1,7 @@
+@for $x from 1 through 4 {
+    $y: 100 / $x;
+
+    .col-#{$y} {
+        width: $y + 0%;
+    }
+}
